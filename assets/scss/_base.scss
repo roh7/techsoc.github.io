@@ -67,3 +67,7 @@ code {
   max-width: $max-site-width;
   margin: 0 auto;
 }
+
+*::selection {
+    background: $brand-primary;
+}

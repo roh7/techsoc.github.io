@@ -915,6 +915,10 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .wrapper { max-width: 1100px; margin: 0 auto; }
 
+*::-moz-selection { background: #171C44; }
+
+*::selection { background: #171C44; }
+
 .site-nav { font-size: 1.125em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 10px; }
 
 .site-nav-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
